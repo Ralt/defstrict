@@ -8,7 +8,7 @@ Usage:
 (defstrict foo ((bar string) (baz integer))
   bar)
 
-(foo "foo" 1) ;; compilation error
+(foo "foo" "1") ;; compilation error
 ```
 
 Limitation: this is not a compilation error:
